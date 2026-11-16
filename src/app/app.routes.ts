@@ -3,6 +3,7 @@ import { HomeComponent } from './home/home.component';
 import { Contact } from './contact/contact.component';
 import { Gamemodes } from './gamemodes/gamemodes.component';
 import { Information } from './information/information.component';
+import { MultimediaComponent } from './multimedia/multimedia.component';
 
 export const routes: Routes = [
   {
@@ -21,5 +22,9 @@ export const routes: Routes = [
   {
     path: 'info',
     component: Information,
+  },
+  {
+    path: 'multimedia',
+    component: MultimediaComponent,
   },
 ];
