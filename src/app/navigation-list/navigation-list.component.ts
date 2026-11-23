@@ -10,6 +10,5 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class NavigationList {
   public toggleDark() {
     document.documentElement.classList.toggle('dark');
-    console.log('clicked');
   }
 }

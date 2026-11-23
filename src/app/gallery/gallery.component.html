@@ -1,1 +1,145 @@
-<p>gallery works!</p>
+<div class="media w-1/2">
+  <h2 class="text-2xl font-semibold mb-6">Galeria d'skins</h2>
+
+  <div class="gallery grid grid-cols-1 md:grid-cols-2 gap-6">
+    <figure
+      class="m-0 overflow-hidden rounded-lg border border-slate-200 bg-slate-100 dark:border-gray-700 dark:bg-gray-800"
+    >
+      <picture>
+        <source
+          type="image/avif"
+          srcset="
+            /images/skin1-480.avif   480w,
+            /images/skin1-800.avif   800w,
+            /images/skin1-1200.avif 1200w
+          "
+          sizes="(max-width: 700px) 100vw, 50vw"
+        />
+        <img
+          src="/images/skin1-800.webp"
+          srcset="
+            /images/skin1-480.webp   480w,
+            /images/skin1-800.webp   800w,
+            /images/skin1-1200.webp 1200w
+          "
+          sizes="(max-width: 700px) 100vw, 50vw"
+          width="800"
+          height="800"
+          alt="Peter Griffin"
+          loading="eager"
+          fetchpriority="high"
+          class="w-full aspect-square object-contain pt-4"
+        />
+      </picture>
+      <figcaption
+        class="py-3 px-4 text-sm text-center text-slate-700 bg-white border-t border-slate-200 dark:text-gray-200 dark:bg-gray-900 dark:border-gray-700"
+      >
+        Skin 1 · AVIF/WebP
+      </figcaption>
+    </figure>
+    <figure
+      class="m-0 overflow-hidden rounded-lg border border-slate-200 bg-slate-100 dark:border-gray-700 dark:bg-gray-800"
+    >
+      <picture>
+        <source
+          type="image/avif"
+          srcset="
+            /images/skin2-480.avif   480w,
+            /images/skin2-800.avif   800w,
+            /images/skin2-1200.avif 1200w
+          "
+          sizes="(max-width: 700px) 100vw, 50vw"
+        />
+        <img
+          src="/images/skin2-800.webp"
+          srcset="
+            /images/skin2-480.webp   480w,
+            /images/skin2-800.webp   800w,
+            /images/skin2-1200.webp 1200w
+          "
+          sizes="(max-width: 700px) 100vw, 50vw"
+          width="800"
+          height="800"
+          alt="Superheroina tryhard"
+          loading="eager"
+          class="w-full aspect-square object-contain pt-4"
+        />
+      </picture>
+      <figcaption
+        class="py-3 px-4 text-sm text-center text-slate-700 bg-white border-t border-slate-200 dark:text-gray-200 dark:bg-gray-900 dark:border-gray-700"
+      >
+        Skin 2 · AVIF/WebP
+      </figcaption>
+    </figure>
+
+    <figure
+      class="m-0 overflow-hidden rounded-lg border border-slate-200 bg-slate-100 dark:border-gray-700 dark:bg-gray-800"
+    >
+      <picture>
+        <source
+          type="image/avif"
+          srcset="
+            /images/skin3-480.avif   480w,
+            /images/skin3-800.avif   800w,
+            /images/skin3-1200.avif 1200w
+          "
+          sizes="(max-width: 700px) 100vw, 50vw"
+        />
+        <img
+          src="/images/skin3-800.webp"
+          srcset="
+            /images/skin3-480.webp   480w,
+            /images/skin3-800.webp   800w,
+            /images/skin3-1200.webp 1200w
+          "
+          sizes="(max-width: 700px) 100vw, 50vw"
+          width="800"
+          height="800"
+          alt="Midas"
+          loading="lazy"
+          class="w-full aspect-square object-contain pt-4"
+        />
+      </picture>
+      <figcaption
+        class="py-3 px-4 text-sm text-center text-slate-700 bg-white border-t border-slate-200 dark:text-gray-200 dark:bg-gray-900 dark:border-gray-700"
+      >
+        Skin 3 · loading lazy
+      </figcaption>
+    </figure>
+
+    <figure
+      class="m-0 overflow-hidden rounded-lg border border-slate-200 bg-slate-100 dark:border-gray-700 dark:bg-gray-800"
+    >
+      <picture>
+        <source
+          type="image/avif"
+          srcset="
+            /images/skin4-480.avif   480w,
+            /images/skin4-800.avif   800w,
+            /images/skin4-1200.avif 1200w
+          "
+          sizes="(max-width: 700px) 100vw, 50vw"
+        />
+        <img
+          src="/images/skin4-800.webp"
+          srcset="
+            /images/skin4-480.webp   480w,
+            /images/skin4-800.webp   800w,
+            /images/skin4-1200.webp 1200w
+          "
+          sizes="(max-width: 700px) 100vw, 50vw"
+          width="800"
+          height="800"
+          alt="El tauro"
+          loading="lazy"
+          class="w-full aspect-square object-contain pt-4"
+        />
+      </picture>
+      <figcaption
+        class="py-3 px-4 text-sm text-center text-slate-700 bg-white border-t border-slate-200 dark:text-gray-200 dark:bg-gray-900 dark:border-gray-700"
+      >
+        Skin 4 · loading lazy
+      </figcaption>
+    </figure>
+  </div>
+</div>
